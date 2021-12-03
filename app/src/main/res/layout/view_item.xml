@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/itemColor"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/nationID"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nation"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/nationID"
+        android:maxLines="1"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/yearId"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nation"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nationID"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/yearId"
+        android:maxLines="1"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yearId"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/slunNation"-->
+    <!--        android:layout_width="170dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Hello"-->
+    <!--        android:layout_marginLeft="50dp"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:layout_toRightOf="@id/population"-->
+    <!--        android:layout_below="@id/year"-->
+    <!--        />-->
+</RelativeLayout>
